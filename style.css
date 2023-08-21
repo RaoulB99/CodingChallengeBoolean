@@ -1,0 +1,114 @@
+
+*{
+box-sizing: border-box;
+margin: auto;
+font-family: 'Poppins', sans-serif; ;
+}
+
+
+
+/*sfondo*/
+body{ 
+    
+    background-size: cover;
+    background-image: url(background.jpg);
+}
+
+/*box nero*/
+.container{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 10px 15%;
+    background-color: rgba(0,0,0,0.40) ;
+    border-radius: 5px;
+}
+
+
+
+/*logo lim*/
+header>img{
+    width: 20%;
+    text-align: center;
+    display: block;
+}
+/*titolo */
+header>h1{
+    
+    text-align: center;
+    color: chartreuse;
+
+}
+
+
+
+/*navigatore e pulsanti*/
+nav{
+    line-height: 40px;
+    text-align: center;
+    width: 80%;
+    height: 40px;
+    background-color: chartreuse;
+}
+
+/*spaziamento del main*/
+main>section{
+    
+    margin: 2.5% 10%;
+    
+}
+
+/*checkbox e nomi mono*/
+input[type="checkbox"]{
+    margin-right: 5px;
+
+}
+
+h2{
+    color: aliceblue;
+    display: inline-block;
+}
+section>h2:before{ 
+    content: 'Monopattino ';
+}
+
+
+
+
+
+/*colore delle info*/
+section p{
+    color: aliceblue;
+
+}
+
+/*aggiunta delle frecce*/
+section p:before{
+    content: '\21A6';
+    margin-right: 1px;
+}
+
+/*barre di carica monopattini*/
+.carica1{
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 0%;
+    width: 80%;
+    height: 30px;
+    background:green;
+}
+.carica2{
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 0%;
+    width: 50%;
+    height: 30px;
+    background:orange;
+}
+.carica3{
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 0%;
+    width: 35%;
+    height: 30px;
+    background:darkred;
+}
